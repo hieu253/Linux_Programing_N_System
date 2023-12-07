@@ -41,9 +41,9 @@ Sử dụng mutex và condition variable để giải quyết bài toán.
 
 **05-signal:**
 
-_Bài 8_: Viết chương trình in ra thông điệp bất kì khi nhấn tổ hợp phím Ctrl+C. Đăng ký action cho SIGUSR1 và SIGUSR2.
+  _Bài 8_: Viết chương trình in ra thông điệp bất kì khi nhấn tổ hợp phím Ctrl+C. Đăng ký action cho SIGUSR1 và SIGUSR2.
 
-_Bài 9_: Kiểm tra SIGINT có bị block trong process hay không. Nếu không thực hiện block/ublock thử SIGINT.
+  _Bài 9_: Kiểm tra SIGINT có bị block trong process hay không. Nếu không thực hiện block/ublock thử SIGINT.
 
 
  
