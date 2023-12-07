@@ -1,7 +1,7 @@
 .PHONY: all clean
 
 all:
-	gcc -o bai5 main.c
+	gcc -o bai8 main.c
 
 clean:
-	rm -rf bai5
+	rm -rf bai8
