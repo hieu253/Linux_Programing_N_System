@@ -25,11 +25,12 @@ _Bài 1 + Bài 2:_ Tạo static lib và shared lib sử dụng Makefile
 
   _Bài 11_: Viết một chương trình thực hiện tạo 2 threads. Cả hai threads này đều dùng chung một handler.
   
-      Kiểm tra nếu là thread1 đang thực hiện thì in ra thông điệp bất kì để xác định. 
+      - Kiểm tra nếu là thread1 đang thực hiện thì in ra thông điệp bất kì để xác định. 
       
-      Nếu là thread2 thì truyền vào dữ liệu kiểu struct human được khởi tạo từ trước, với các thông tin: Họ tên, năm sinh, sdt, quê quán. Sau đó in các thông tin này ra màn hình.
+      - Nếu là thread2 thì truyền vào dữ liệu kiểu struct human được khởi tạo từ trước, với các thông tin: Họ tên, năm sinh, sdt, quê quán. Sau đó in các thông tin này ra màn hình.
 
   _Bài 12_: Viết một chương trình thực hiện tạo 3 threads.
+  
       Thread 1: Thực hiện việc nhập dữ liệu sinh viên từ bàn phím, bao gồm thông tin: Họ tên, ngày sinh, quê quán.
       
       Thread2: Mỗi lần nhập xong dữ liệu một sinh viên, thread này sẽ ghi thông tin sinh viên đó vào file (mỗi thông tin sinh viên nằm trên 1 dòng) thongtinsinhvien.txt.
