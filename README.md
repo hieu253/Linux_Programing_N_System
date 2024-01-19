@@ -45,6 +45,48 @@ Sử dụng mutex và condition variable để giải quyết bài toán.
 
   _Bài 9_: Kiểm tra SIGINT có bị block trong process hay không. Nếu không thực hiện block/ublock thử SIGINT.
 
+**06-socket**
+
+
+_Bài 13_: Viết chương trình client giao tiếp với server thông qua socket sử dụng ipv4 stream socket.
+
+
+**07-pipes-FIFOs**
+
+_Bài 14_: Tạo Pipe, trao đổi dữ liệu giữa các related process.
+
+_Bài 15_: Tạo FIFO, trao đổi dữ liệu giữa các unrelated process.
+
+**08-shared_memory**
+
+_Bài 16_: So sánh giữa hai phương thức mapping memory sử dụng hàm mmap() (POSIX api). Triển khai code để chứng minh.
+
+**09-message_queue**
+
+_Bài 17_: Tạo ra một danh sách sinh viên mới message queues. Định dạng dữ liệu lưu trữ trong queues như sau:
+
+      struct message {
+      long priority <id của sinh viên>;
+      struct sinhvien {
+      	char hoten[50];
+      	int tuoi;
+      	char quequan[100];
+      	char sdt[100];
+      };
+      }
+
+      - Menu hiển thị chức năng.
+      - Nhập thông tin sinh viên từ bàn phím và lưu trữ vào trong queue.
+      - Hiển thị thông tin sinh viên thông qua id.
+      - Hiển thị toàn bộ danh sách của sinh viên.
+      - Xóa một sinh viên khỏi danh sách thông qua id.
+      Lưu ý: giá trị id của mỗi sinh viên là duy nhất và lớn hơn 0.
+
+
+
+
+
+ 
 
  
 
